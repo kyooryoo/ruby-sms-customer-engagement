@@ -100,3 +100,7 @@ form input[type=submit]:hover {
   cursor: pointer;
   opacity: 0.9;
 }
+
+h1 {
+  text-align: center
+}

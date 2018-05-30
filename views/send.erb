@@ -1,0 +1,21 @@
+<h1>Send A Test Message</h1>
+<form action="/send" method="post">
+  <div class="field">
+    <label for="prefix">
+      National Code (86 for China)
+    </label>
+    <input type="text" name="prefix" required=True value="86">
+    <label for="number">
+      Phone Number
+    </label>
+    <textarea name="number" rows=5 required=True></textarea>
+    <label for="message">
+      Message
+    </label>
+    <textarea name="message" cols=40 rows=10 required=True></textarea>
+  </div>
+
+  <div class="actions">
+    <input type="submit" value="Send">
+  </div>
+</form>

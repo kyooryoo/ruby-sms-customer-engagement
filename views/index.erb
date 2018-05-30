@@ -1,12 +1,17 @@
-<form action="/notify" method="post">
+<h1>Setup Your Nexmo Account</h1>
+<form action="/" method="post">
   <div class="field">
-    <label for="number">
-      Phone number
+    <label for="api_key">
+      API Key
     </label>
-    <input type="text" name="number">
+    <input type="text" name="api_key" required=True>
+    <label for="api_secret">
+      API Secret
+    </label>
+    <input type="password" name="api_secret" required=True>
   </div>
 
   <div class="actions">
-    <input type="submit" value="Notify">
+    <input type="submit" value="Setup">
   </div>
 </form>
